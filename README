@@ -1,0 +1,21 @@
+# Stock Price Predictor 📈
+
+This project predicts stock prices using historical data and linear regression. Built in Google Colab using Python, Pandas, Scikit-learn, and yFinance.
+
+## 🔧 Technologies Used
+- Python
+- yfinance
+- scikit-learn
+- pandas
+- matplotlib
+
+## 📊 Output
+The model plots the actual vs predicted stock price using test data.
+
+## 🚀 How to Run
+1. Open the notebook in Google Colab.
+2. Run each cell.
+3. Change stock ticker if needed (e.g., TSLA, GOOG).
+
+## 📎 Author
+Gokul Priyan
