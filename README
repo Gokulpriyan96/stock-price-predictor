@@ -1,21 +1,46 @@
-# Stock Price Predictor 📈
+# Machine Learning Projects by Gokul Priyan
 
-This project predicts stock prices using historical data and linear regression. Built in Google Colab using Python, Pandas, Scikit-learn, and yFinance.
+This repository contains two machine learning projects developed as part of my internship:
 
-## 🔧 Technologies Used
-- Python
-- yfinance
-- scikit-learn
-- pandas
-- matplotlib
+---
 
-## 📊 Output
-The model plots the actual vs predicted stock price using test data.
+## 1. Stock Price Predictor 📈
 
-## 🚀 How to Run
-1. Open the notebook in Google Colab.
-2. Run each cell.
-3. Change stock ticker if needed (e.g., TSLA, GOOG).
+**Description:**  
+This project predicts future stock prices based on historical data using Linear Regression. It leverages the `yfinance` library to fetch real-time stock data, processes it with `pandas`, and trains a regression model with `scikit-learn`. The model plots actual vs predicted stock prices to evaluate performance.
 
-## 📎 Author
-Gokul Priyan
+**Technologies Used:**  
+- Python  
+- yfinance  
+- pandas  
+- scikit-learn  
+- matplotlib  
+
+**How to Run:**  
+1. Open the `stock_price_predictor.ipynb` notebook in Google Colab.  
+2. Run all cells sequentially.  
+3. You can change the stock ticker symbol in the code to predict different stocks.  
+
+---
+
+## 2. Handwritten Digit Recognizer 🔢
+
+**Description:**  
+This project uses a Convolutional Neural Network (CNN) built with TensorFlow and Keras to classify handwritten digits from the MNIST dataset. The model achieves high accuracy while training efficiently. The notebook includes visualization of predictions on sample test images.
+
+**Technologies Used:**  
+- Python  
+- TensorFlow / Keras  
+- MNIST Dataset  
+- matplotlib  
+
+**How to Run:**  
+1. Open the `handwritten_digit_recognizer.ipynb` notebook in Google Colab.  
+2. Run all cells sequentially.  
+3. The model trains for a few epochs and then evaluates on the test set.  
+4. Visualize the model's predictions on sample digits.  
+
+---
+
+## Folder Structure
+
